@@ -1,4 +1,5 @@
 import { Footer } from "@/components/Footer";
+import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { ToolGrid } from "@/components/ToolGrid";
 export default function ImagePage() {
@@ -6,11 +7,7 @@ export default function ImagePage() {
     <>
       <Navbar />
       <main className="page-shell">
-        <div className="section-heading">
-          <p className="eyebrow">IMAGE WORKSPACE</p>
-          <h1>Make more of your images.</h1>
-          <p>Handy image tools are coming soon. Start with our PDF tools today.</p>
-        </div>
+        <Hero/>
         <ToolGrid category="image" />
       </main>
       <Footer />
