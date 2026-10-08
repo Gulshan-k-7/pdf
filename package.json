@@ -11,7 +11,11 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "jspdf": "^4.2.1",
     "next": "16.4.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.4.299",
+    "pdfstudio": "^0.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
@@ -22,7 +26,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
-    "prettier": "^3.9.9",
+    "prettier": "3.9.9",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
