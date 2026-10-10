@@ -11,6 +11,7 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@imgly/background-removal": "^1.7.0",
     "heic2any": "^0.0.4",
     "jspdf": "^4.2.1",
     "next": "16.4.0",
@@ -18,7 +19,8 @@
     "pdfjs-dist": "^6.4.299",
     "pdfstudio": "^0.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-image-crop": "^11.1.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.2",

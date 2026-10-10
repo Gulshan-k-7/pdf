@@ -163,15 +163,6 @@ const tools: Tool[] = [
     label: "Popular",
   },
    {
-    title: "Background Remover",
-    description: "Remove the background from your images.",
-    href: "/background-remover",
-    icon: "B",
-    tone: "bg-emerald-50 text-emerald-600",
-    category: "image",
-    label: "Popular",
-  },
-   {
     title: "add watermark to image",
     description: "Add a watermark to your images.",
     href: "/add-watermark-to-image",
@@ -180,15 +171,7 @@ const tools: Tool[] = [
     category: "image",
     label: "Popular",
   },
-   {
-    title: "upscale image",
-    description: "Increase the resolution of your images.",
-    href: "/upscale-image",
-    icon: "U",
-    tone: "bg-amber-50 text-amber-600",
-    category: "image",
-    label: "Popular",
-  },
+ 
 ];
 
 export function ToolGrid({
