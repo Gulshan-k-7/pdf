@@ -5,7 +5,7 @@ const tools: Tool[] = [
   {
     title: "Compress PDF",
     description: "Make a PDF smaller and easier to share.",
-    href: "/tools/compress-pdf",
+    href: "/compress-pdf",
     icon: "↓",
     tone: "bg-emerald-50 text-emerald-600",
     category: "pdf",
@@ -13,7 +13,7 @@ const tools: Tool[] = [
   {
     title: "Merge PDF",
     description: "Bring multiple documents together.",
-    href: "/tools/merge-pdf",
+    href: "/merge-pdf",
     icon: "+",
     tone: "bg-violet-50 text-violet-600",
     category: "pdf",
@@ -21,7 +21,7 @@ const tools: Tool[] = [
   {
     title: "Split PDF",
     description: "Separate pages into smaller files.",
-    href: "/tools/split-pdf",
+    href: "/split-pdf",
     icon: "/",
     tone: "bg-orange-50 text-orange-600",
     category: "pdf",
@@ -29,7 +29,7 @@ const tools: Tool[] = [
   {
     title: "edit PDF",
     description: "Edit your PDF files with our easy-to-use editor.",
-    href: "/tools/edit-pdf",
+    href: "/edit-pdf",
     icon: "E",
     tone: "bg-amber-50 text-amber-600",
     category: "pdf",
@@ -38,7 +38,7 @@ const tools: Tool[] = [
   {
     title: "rotate PDF pages",
     description: "Rotate pages in your PDF files.",
-    href: "/tools/rotate-pdf-pages",
+    href: "/rotate-pdf-pages",
     icon: "R",
     tone: "bg-cyan-50 text-cyan-600",
     category: "pdf",
@@ -47,7 +47,7 @@ const tools: Tool[] = [
   {
     title: "delete PDF pages",
     description: "Remove unwanted pages from your PDF files.",
-    href: "/tools/delete-pdf-pages",
+    href: "/delete-pdf-pages",
     icon: "D",
     tone: "bg-rose-50 text-rose-600",
     category: "pdf",
@@ -56,7 +56,7 @@ const tools: Tool[] = [
   {
     title: "reorder PDF pages",
     description: "Reorder pages in your PDF files.",
-    href: "/tools/reorder-pdf-pages",
+    href: "/reorder-pdf-pages",
     icon: "R",
     tone: "bg-amber-50 text-amber-600",
     category: "pdf",
@@ -65,34 +65,35 @@ const tools: Tool[] = [
   {
     title: "Protect PDF",
     description: "Add password protection to your PDF files.",
-    href: "/tools/protect-pdf",
+    href: "/protect-pdf",
     icon: "P",
     tone: "bg-violet-50 text-violet-600",
     category: "pdf",
     label: "Popular",
   },
+  
   {
     title: "JPG to PDF",
     description: "Turn images into a shareable PDF.",
-    href: "/tools/jpg-to-pdf",
+    href: "/jpg-to-pdf",
     icon: "J",
     tone: "bg-sky-50 text-sky-600",
-    category: "image",
+    category: "pdf",
     label: "Popular",
   },
   {
     title: "PDF to JPG",
     description: "Convert your PDFs to high-quality images.",
-    href: "/tools/pdf-to-jpg",
+    href: "/pdf-to-jpg",
     icon: "P",
     tone: "bg-rose-50 text-rose-600",
-    category: "image",
+    category: "pdf",
     label: "Popular",
   },
   {
     title: "compress image",
     description: "Reduce the file size of your images.",
-    href: "/tools/compress-image",
+    href: "/compress-image",
     icon: "C",
     tone: "bg-emerald-50 text-emerald-600",
     category: "image",
@@ -101,7 +102,7 @@ const tools: Tool[] = [
   {
     title: "resize image",
     description: "Change the dimensions of your images.",
-    href: "/tools/resize-image",
+    href: "/resize-image",
     icon: "R",
     tone: "bg-amber-50 text-amber-600",
     category: "image",
@@ -110,7 +111,7 @@ const tools: Tool[] = [
   {
     title: "convert image format",
     description: "Convert your images to different formats.",
-    href: "/tools/convert-image-format",
+    href: "/convert-image-format",
     icon: "C",
     tone: "bg-violet-50 text-violet-600",
     category: "image",
@@ -119,7 +120,7 @@ const tools: Tool[] = [
   {
     title: "heic to jpg",
     description: "Convert your HEIC images to JPG format.",
-    href: "/tools/heic-to-jpg",
+    href: "/heic-to-jpg",
     icon: "H",
     tone: "bg-amber-50 text-amber-600",
     category: "image",
@@ -128,7 +129,7 @@ const tools: Tool[] = [
   {
     title: "crop image",
     description: "Trim the edges of your images.",
-    href: "/tools/crop-image",
+    href: "/crop-image",
     icon: "C",
     tone: "bg-violet-50 text-violet-600",
     category: "image",
@@ -137,7 +138,7 @@ const tools: Tool[] = [
   {
     title: "rotate and flip",
     description: "Rotate and flip your images.",
-    href: "/tools/rotate-and-flip",
+    href: "/rotate-and-flip",
     icon: "R",
     tone: "bg-amber-50 text-amber-600",
     category: "image",
@@ -146,7 +147,7 @@ const tools: Tool[] = [
   {
     title: "passport size photo maker",
     description: "Create passport-sized photos for your documents.",
-    href: "/tools/passport-size-photo-maker",
+    href: "/passport-size-photo-maker",
     icon: "P",
     tone: "bg-rose-50 text-rose-600",
     category: "image",
@@ -155,7 +156,7 @@ const tools: Tool[] = [
   {
     title: "signature maker",
     description: "Create a digital signature for your documents.",
-    href: "/tools/signature-maker",
+    href: "/signature-maker",
     icon: "S",
     tone: "bg-rose-50 text-rose-600",
     category: "image",
@@ -164,7 +165,7 @@ const tools: Tool[] = [
    {
     title: "Background Remover",
     description: "Remove the background from your images.",
-    href: "/tools/background-remover",
+    href: "/background-remover",
     icon: "B",
     tone: "bg-emerald-50 text-emerald-600",
     category: "image",
@@ -173,7 +174,7 @@ const tools: Tool[] = [
    {
     title: "add watermark to image",
     description: "Add a watermark to your images.",
-    href: "/tools/add-watermark-to-image",
+    href: "/add-watermark-to-image",
     icon: "W",
     tone: "bg-amber-50 text-amber-600",
     category: "image",
@@ -182,7 +183,7 @@ const tools: Tool[] = [
    {
     title: "upscale image",
     description: "Increase the resolution of your images.",
-    href: "/tools/upscale-image",
+    href: "/upscale-image",
     icon: "U",
     tone: "bg-amber-50 text-amber-600",
     category: "image",
@@ -233,7 +234,7 @@ export function ToolGrid({
           <div className="rounded-2xl border border-black/[0.06] bg-white/70 p-8 text-sm text-neutral-500 backdrop-blur-xl">
             More image tools are on the way.{" "}
             <Link
-              href="/tools/jpg-to-pdf"
+              href="/jpg-to-pdf"
               className="font-medium text-neutral-900 underline underline-offset-4"
             >
               Try JPG to PDF
